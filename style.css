@@ -60,3 +60,35 @@ body {
     background-color: greenyellow;
     border-radius: 4px;
 }
+
+
+
+/* ========== SEÇÃO 2: Container Vermelho ========== */
+.container-vermelho {
+    width: 100%;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    gap: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    flex-wrap: wrap;
+}
+
+.container-invisivel1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.retangulo-azul {
+    width: 70px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 4px;
+}
