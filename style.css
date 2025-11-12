@@ -20,3 +20,43 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+
+/* ========== SEÇÃO 1: Container Amarelo 1 ========== */
+.container-amarelo-1 {
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px;
+}
+
+.container-lilas {
+    flex: 1;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 6px;
+    min-height: 150px;
+}
+
+.container-laranja {
+    width: 300px;
+    height: 150px;
+    background-color: orange;
+    border-radius: 4px;
+}
+
+.retangulo-verde {
+    width: 70px;
+    height: 20px;
+    background-color: greenyellow;
+    border-radius: 4px;
+}
