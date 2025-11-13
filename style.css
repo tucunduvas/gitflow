@@ -304,3 +304,66 @@ body {
         height: 20px;
     }
 }
+
+
+/* ========== MEDIA QUERIES - EXTRA SMALL (320px) ========== */
+@media (max-width: 100px) {
+    body {
+        padding: 5px;
+    }
+
+    .container-geral {
+        gap: 0;
+    }
+
+    .container-amarelo-1 {
+        padding: 0;
+    }
+
+    .container-lilas {
+        padding: 6px;
+        min-height: 70px;
+    }
+
+    .container-laranja {
+        height: 70px;
+    }
+
+    .retangulo-verde {
+        height: 20px;
+    }
+
+    .container-vermelho {
+        padding: 6px;
+        gap: 6px;
+    }
+
+    .container-invisivel1 {
+        gap: 6px;
+    }
+
+    .retangulo-azul {
+        height: 20px;
+    }
+
+    .container-amarelo-2 {
+        padding: 6px;
+        gap: 8px;
+    }
+
+    .invisivel2 {
+        gap: 8px;
+    }
+
+    .container-laranja-2 {
+        height: 70px;
+        padding: 6px;
+    }
+
+    .retangulo-vermelho {
+        height: 18px;
+    }
+}
+
+
+
