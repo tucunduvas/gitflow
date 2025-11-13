@@ -138,3 +138,232 @@ body {
     border-radius: 2px;
 }
 
+
+
+/* ========== MEDIA QUERIES - TABLET (768px) ========== */
+@media (max-width: 768px) {
+    .container-geral {
+        gap: 12px;
+        padding: 5px;
+    }
+
+    .container-amarelo-1 {
+        padding: 8px;
+        gap: 8px;
+    }
+
+    .container-lilas {
+        padding: 8px;
+        min-height: 120px;
+    }
+
+    .container-laranja {
+        width: 250px;
+        height: 120px;
+    }
+
+    .retangulo-verde {
+        width: 60px;
+        height: 18px;
+    }
+
+    .container-vermelho {
+        padding: 12px;
+        gap: 8px;
+    }
+
+    .container-invisivel1 {
+        gap: 8px;
+    }
+
+    .retangulo-azul {
+        width: 60px;
+        height: 18px;
+    }
+
+    .container-amarelo-2 {
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .invisivel2 {
+        gap: 12px;
+        min-width: 220px;
+    }
+
+    .container-laranja-2 {
+        max-width: 220px;
+        height: 100px;
+    }
+
+    .retangulo-vermelho {
+        height: 18px;
+    }
+}
+
+/* ========== MEDIA QUERIES - MOBILE (480px) - COLUNA ÚNICA ========== */
+@media (max-width: 480px) {
+    body {
+        padding: 8px;
+    }
+
+    .container-geral {
+        gap: 0;
+        padding: 0;
+        max-width: 100%;
+    }
+
+    /* ===== SEÇÃO 1: Lilás em cima, Laranja e Verde embaixo ===== */
+    .container-amarelo-1 {
+        width: 100%;
+        background-color: #ffff00;
+        padding: 0;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .container-lilas {
+        width: 100%;
+        background-color: #9933ff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        margin-bottom: 0;
+        order: 1;
+        min-height: 80px;
+    }
+
+    .container-laranja {
+        width: 100%;
+        max-width: 100%;
+        height: 80px;
+        background-color: #ff9933;
+        margin-left: 0;
+        margin-top: 0;
+        order: 2;
+    }
+
+    .retangulo-verde {
+        width: 100%;
+        max-width: 100%;
+        height: 25px;
+        background-color: #00ff00;
+        order: 3;
+    }
+
+    /* ===== SEÇÃO 2: Azuis em coluna ===== */
+    .container-vermelho {
+        width: 100%;
+        background-color: #ff0000;
+        flex-direction: column;
+        padding: 10px;
+        gap: 8px;
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .container-invisivel1 {
+        flex-direction: column;
+        width: 100%;
+        gap: 8px;
+    }
+
+    .retangulo-azul {
+        width: 100%;
+        max-width: 100%;
+        height: 25px;
+    }
+
+    /* ===== SEÇÃO 3: Laranja com Vermelho em coluna ===== */
+    .container-amarelo-2 {
+        width: 100%;
+        background-color: #ffff00;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .invisivel2 {
+        width: 100%;
+        gap: 10px;
+        min-width: 100%;
+    }
+
+    .container-laranja-2 {
+        width: 100%;
+        max-width: 100%;
+        height: 80px;
+        background-color: #ff9933;
+        padding: 8px;
+    }
+
+    .retangulo-vermelho {
+        height: 20px;
+    }
+}
+
+
+/* ========== MEDIA QUERIES - EXTRA SMALL (320px) ========== */
+@media (max-width: 100px) {
+    body {
+        padding: 5px;
+    }
+
+    .container-geral {
+        gap: 0;
+    }
+
+    .container-amarelo-1 {
+        padding: 0;
+    }
+
+    .container-lilas {
+        padding: 6px;
+        min-height: 70px;
+    }
+
+    .container-laranja {
+        height: 70px;
+    }
+
+    .retangulo-verde {
+        height: 20px;
+    }
+
+    .container-vermelho {
+        padding: 6px;
+        gap: 6px;
+    }
+
+    .container-invisivel1 {
+        gap: 6px;
+    }
+
+    .retangulo-azul {
+        height: 20px;
+    }
+
+    .container-amarelo-2 {
+        padding: 6px;
+        gap: 8px;
+    }
+
+    .invisivel2 {
+        gap: 8px;
+    }
+
+    .container-laranja-2 {
+        height: 70px;
+        padding: 6px;
+    }
+
+    .retangulo-vermelho {
+        height: 18px;
+    }
+}
+
+
+
